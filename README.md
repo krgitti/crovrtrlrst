@@ -1,4 +1,4 @@
-Reset Trial do CrossOver no Linux
+**Reset Trial do CrossOver no Linux**
 
 Guia seguro para realizar uma reinstalação limpa
 
@@ -8,7 +8,7 @@ Este repositório contém instruções sobre como realizar uma reinstalação li
 
 O objetivo é apenas remover arquivos residuais que podem permanecer após a remoção normal do software, permitindo uma reinstalação limpa para testes autorizados.
 
-📌 Aviso Importante
+**📌 Aviso Importante**
 
 CrossOver é um software pago e protegido por direitos autorais.
 ➡️ Use este guia apenas se você tem permissão legítima, como:
@@ -23,7 +23,7 @@ Alternar entre versões para QA
 
 Este repositório não fornece métodos para burlar licenciamento ou estender o trial além do permitido pela CodeWeavers.
 
-🧽 1. Desinstalar o CrossOver
+**🧽 1. Desinstalar o CrossOver**
 
 Remova o pacote normalmente, conforme sua distribuição:
 
@@ -37,7 +37,7 @@ sudo dnf remove crossover
 Arch-based
 sudo pacman -Rns crossover
 
-🗑️ 2. Remover arquivos residuais
+**🗑️ 2. Remover arquivos residuais**
 
 O CrossOver cria diretórios de configuração, logs e garrafas (bottles).
 Remova apenas se deseja realmente apagar todos os dados:
@@ -53,7 +53,7 @@ Se você instalou versões antigas ou betas:
 rm -rf ~/.codeweavers
 rm -rf ~/.cxoffice-beta
 
-🔄 3. Reinstalar o CrossOver
+**🔄 3. Reinstalar o CrossOver**
 
 Baixe novamente o instalador oficial do site da CodeWeavers:
 
@@ -64,7 +64,7 @@ E instale:
 sudo dpkg -i crossover_*.deb   # Debian/Ubuntu
 sudo rpm -i crossover-*.rpm    # RedHat/Fedora
 
-🧪 4. Verificar se a instalação está limpa
+**🧪 4. Verificar se a instalação está limpa**
 
 Após reinstalar, rode:
 
@@ -79,7 +79,8 @@ Preferências voltaram ao padrão
 
 Logs foram resetados
 
-📝 Notas Finais
+
+**📝 Notas Finais**
 
 Isso não redefine licença — apenas remove dados locais.
 
