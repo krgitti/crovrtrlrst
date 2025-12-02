@@ -8,6 +8,7 @@ Este repositório contém instruções sobre como realizar uma reinstalação li
 
 O objetivo é apenas remover arquivos residuais que podem permanecer após a remoção normal do software, permitindo uma reinstalação limpa para testes autorizados.
 
+
 **📌 Aviso Importante**
 
 CrossOver é um software pago e protegido por direitos autorais.
@@ -24,6 +25,7 @@ Alternar entre versões para QA
 Este repositório não fornece métodos para burlar licenciamento ou estender o trial além do permitido pela CodeWeavers.
 
 
+
 **🧽 1. Desinstalar o CrossOver**
 
 Remova o pacote normalmente, conforme sua distribuição:
@@ -37,6 +39,7 @@ sudo dnf remove crossover
 
 Arch-based
 sudo pacman -Rns crossover
+
 
 
 **🗑️ 2. Remover arquivos residuais**
@@ -56,6 +59,7 @@ rm -rf ~/.codeweavers
 rm -rf ~/.cxoffice-beta
 
 
+
 **🔄 3. Reinstalar o CrossOver**
 
 Baixe novamente o instalador oficial do site da CodeWeavers:
@@ -66,6 +70,7 @@ E instale:
 
 sudo dpkg -i crossover_*.deb   # Debian/Ubuntu
 sudo rpm -i crossover-*.rpm    # RedHat/Fedora
+
 
 
 **🧪 4. Verificar se a instalação está limpa**
@@ -82,6 +87,7 @@ Bottles não foram restauradas
 Preferências voltaram ao padrão
 
 Logs foram resetados
+
 
 
 **📝 Notas Finais**
